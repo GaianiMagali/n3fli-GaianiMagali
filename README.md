@@ -16,22 +16,24 @@ Las series que el usuario vió, pero no en su totalidad (que no terminó de ver)
 Para cada usuario, se conocen las películas y los capítulos de series que ya vio.
 
 
-Requerimientos:
+## Requerimientos:
 
-Saber si un usuario vio un contenido dado en forma completa. Los capítulos de series y las películas vistos por el usuario siempre se asumen completos, pero las temporadas y series dependen de los capítulos que el usuario haya visto. 
+- Saber si un usuario vio un contenido dado en forma completa. Los capítulos de series y las películas vistos por el usuario siempre se asumen completos, pero las temporadas y series dependen de los capítulos que el usuario haya visto. 
 
-Saber la duración de un contenido. Para las temporadas y series, es la suma de las duraciones de todos sus capítulos.
+- Saber la duración de un contenido. Para las temporadas y series, es la suma de las duraciones de todos sus capítulos.
 
-Determinar el último capítulo disponible de una serie.
+- Determinar el último capítulo disponible de una serie.
 
+- Saber los géneros que vio un usuario, sin repetición.
 
-Saber los géneros que vio un usuario, sin repetición.
-Saber el género preferido de un usuario, que es aquel género del cual se vieron más minutos.
+- Saber el género preferido de un usuario, que es aquel género del cual se vieron más minutos.
 
+- Saber si un actor actuó en un contenido.
 
-Saber si un actor actuó en un contenido.
-Saber quienes son los usuarios fans de un actor, que son aquellos que vieron sólo contenidos que incluyen a ese actor.
+- Saber quienes son los usuarios fans de un actor, que son aquellos que vieron sólo contenidos que incluyen a ese actor.
 
-Saber qué contenidos del repositorio recomienda la empresa a un usuario. 
+- Saber qué contenidos del repositorio recomienda la empresa a un usuario. 
 
-Cuando sale un capítulo de una serie, los administradores del sistema deben agregarlo al mismo. Los mismos deben cargarse en orden, por lo que no se puede agregar un capítulo si no están todos los capítulos anteriores ya cargados. Crear en el sistema un nuevo capítulo de una serie para una temporada dada (ya existente) y con un conjunto de actores invitados en el mismo que se conoce de antemano, de forma que cubra todo lo necesario para los requerimientos anteriores.
+Cuando sale un capítulo de una serie, los administradores del sistema deben agregarlo al mismo. Los mismos deben cargarse en orden, por lo que no se puede agregar un capítulo si no están todos los capítulos anteriores ya cargados.
+
+- Crear en el sistema un nuevo capítulo de una serie para una temporada dada (ya existente) y con un conjunto de actores invitados en el mismo que se conoce de antemano, de forma que cubra todo lo necesario para los requerimientos anteriores.
