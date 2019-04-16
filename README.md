@@ -3,15 +3,16 @@
 Un sitio web de venta de contenido On-Demand nos solicita implementar su sistema de recomendación de contenidos. O sea que contenido se le va a recomendar a cada uno de los usuarios que entren a la plataforma.
 
 El repositorio de la empresa tiene los contenidos disponibles y los usuarios que maneja el sistema. De los contenidos, se puede tener:
-Series: pueden tener una o más temporadas. Cada temporada, a su vez, está compuesta por capítulos. La serie tiene ciertos actores que la protagonizan, y además cada capítulo puede tener actores invitados. De los capítulos, se conoce la duración en minutos y el número de orden dentro de la temporada. De las temporadas, se conoce el número y la cantidad de capítulos de la que consiste, incluso si todavía no salieron los mismos.
-Películas. De estas, se conoce la duración en minutos y los actores.
 
-Tanto las películas como las series tienen un género (Acción, Suspenso, Infantil, Terror, etc), que puede modelarse con un String. Los capítulos de serie y las temporadas se asumen como del género de la serie a la que pertenecen.
+* Series: pueden tener una o más temporadas. Cada temporada, a su vez, está compuesta por capítulos. La serie tiene ciertos actores que la protagonizan, y además cada capítulo puede tener actores invitados. De los capítulos, se conoce la duración en minutos y el número de orden dentro de la temporada. De las temporadas, se conoce el número y la cantidad de capítulos de la que consiste, incluso si todavía no salieron los mismos.
+* Películas. De estas, se conoce la duración en minutos y los actores.
+
+Tanto las películas como las series tienen un género (Acción, Suspenso, Infantil, Terror etc). Los capítulos de serie y las temporadas se asumen como del género de la serie a la que pertenecen.
 
 Cuando los usuarios se loguean, ven una lista de contenido recomendado; los contenidos incluidos en la lista de recomendados son:
 
-Destacados: los contenidos destacados son aquellos que la empresa selecciona como destacados del mes.
-Las series que el usuario vió, pero no en su totalidad (que no terminó de ver).
+* Destacados: los contenidos destacados son aquellos que la empresa selecciona como destacados del mes.
+* Las series que el usuario vió, pero no en su totalidad (que no terminó de ver).
 
 Para cada usuario, se conocen las películas y los capítulos de series que ya vio.
 
